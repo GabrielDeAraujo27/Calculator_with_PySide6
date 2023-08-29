@@ -1,0 +1,2 @@
+# ProjetoCalculadoraPySide6
+ 
