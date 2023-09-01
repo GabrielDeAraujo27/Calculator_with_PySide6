@@ -1,6 +1,6 @@
 #QSS - Estilos para o python
 import qdarktheme
-from variables import *
+from Components.variables import *
 
 qss = f"""
     PushButton[cssClass="specialButton"] {{

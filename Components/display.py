@@ -1,7 +1,7 @@
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import QLineEdit
-import variables
-from PySide6.QtCore import QtMsgType
+from Components import variables
+
 
 class Display(QLineEdit):
     def __init__(self, *args, **kwargs):
