@@ -1,5 +1,6 @@
 import sys
 from PySide6.QtWidgets import QApplication, QLabel
+from Components.buttons import ButtonsGrid
 from Components.main_window import MainWindow
 from Components.styles import setupTheme
 from Components.info import Info
@@ -31,6 +32,10 @@ if __name__ == '__main__':
     window.addWidgetToVLayout(display)
     #window.addWidgetToVLayout(Display('3'))
     #window.addWidgetToVLayout(Display('4'))
+
+    # Grid
+    buttonsGrid = ButtonsGrid()
+    window.vlayout.addLayout(buttonsGrid)
 
 
     window.show()
