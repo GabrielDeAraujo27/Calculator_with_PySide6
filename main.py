@@ -34,7 +34,7 @@ if __name__ == '__main__':
     #window.addWidgetToVLayout(Display('4'))
 
     # Grid
-    buttonsGrid = ButtonsGrid()
+    buttonsGrid = ButtonsGrid(display)
     window.vlayout.addLayout(buttonsGrid)
 
 
