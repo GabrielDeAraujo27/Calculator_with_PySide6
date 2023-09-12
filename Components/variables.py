@@ -1,13 +1,15 @@
 from pathlib import Path
 
 ROOT_DIR = Path(__file__).parent
-FILES_DIR = ROOT_DIR / 'files'
-WINDOW_ICON_PATH = FILES_DIR / 'icon.png'
+FILES_DIR = ROOT_DIR / 'Files'
+LOGO_DIR = FILES_DIR / 'Logo'
+WINDOW_ICON_PATH = LOGO_DIR / 'TempLogo.jpg'
+
 
 # Colors
-PRIMARY_COLOR = '#1e81b0'
-DARKER_PRIMARY_COLOR = '#16658a'
-DARKEST_PRIMARY_COLOR = '#115270'
+PRIMARY_COLOR = '#b93e3e'
+DARKER_PRIMARY_COLOR = '#742929'
+DARKEST_PRIMARY_COLOR = '#391515'
 
 # Sizing
 BIG_FONT_SIZE = 40
