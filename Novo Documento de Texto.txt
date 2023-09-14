@@ -1,0 +1,1 @@
+pyinstaller --noconsole --noconfirm --onefile --icon='Components\Files\Logo\TempLogo.jpg' --clean --log-level=WARN main.py
